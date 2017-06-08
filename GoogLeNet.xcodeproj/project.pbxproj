@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E284FF71EEA0974006D089D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E284FF61EEA0974006D089D /* AppDelegate.swift */; };
+		8E284FF91EEA0974006D089D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E284FF81EEA0974006D089D /* ViewController.swift */; };
+		8E284FFC1EEA0974006D089D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E284FFA1EEA0974006D089D /* Main.storyboard */; };
+		8E284FFE1EEA0974006D089D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E284FFD1EEA0974006D089D /* Assets.xcassets */; };
+		8E2850011EEA0974006D089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E284FFF1EEA0974006D089D /* LaunchScreen.storyboard */; };
+		8E28500C1EEA0975006D089D /* GoogLeNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E28500B1EEA0975006D089D /* GoogLeNetTests.swift */; };
+		8E2850171EEA0975006D089D /* GoogLeNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E2850081EEA0974006D089D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E284FEB1EEA0974006D089D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E284FF21EEA0974006D089D;
+			remoteInfo = GoogLeNet;
+		};
+		8E2850131EEA0975006D089D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E284FEB1EEA0974006D089D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E284FF21EEA0974006D089D;
+			remoteInfo = GoogLeNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E284FF31EEA0974006D089D /* GoogLeNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogLeNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E284FF61EEA0974006D089D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E284FF81EEA0974006D089D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E284FFB1EEA0974006D089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E284FFD1EEA0974006D089D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E2850001EEA0974006D089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E2850021EEA0974006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2850071EEA0974006D089D /* GoogLeNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogLeNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E28500B1EEA0975006D089D /* GoogLeNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetTests.swift; sourceTree = "<group>"; };
+		8E28500D1EEA0975006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2850121EEA0975006D089D /* GoogLeNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogLeNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetUITests.swift; sourceTree = "<group>"; };
+		8E2850181EEA0975006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E284FF01EEA0974006D089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2850041EEA0974006D089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E28500F1EEA0975006D089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E284FEA1EEA0974006D089D = {
+			isa = PBXGroup;
+			children = (
+				8E284FF51EEA0974006D089D /* GoogLeNet */,
+				8E28500A1EEA0975006D089D /* GoogLeNetTests */,
+				8E2850151EEA0975006D089D /* GoogLeNetUITests */,
+				8E284FF41EEA0974006D089D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E284FF41EEA0974006D089D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E284FF31EEA0974006D089D /* GoogLeNet.app */,
+				8E2850071EEA0974006D089D /* GoogLeNetTests.xctest */,
+				8E2850121EEA0975006D089D /* GoogLeNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E284FF51EEA0974006D089D /* GoogLeNet */ = {
+			isa = PBXGroup;
+			children = (
+				8E284FF61EEA0974006D089D /* AppDelegate.swift */,
+				8E284FF81EEA0974006D089D /* ViewController.swift */,
+				8E284FFA1EEA0974006D089D /* Main.storyboard */,
+				8E284FFD1EEA0974006D089D /* Assets.xcassets */,
+				8E284FFF1EEA0974006D089D /* LaunchScreen.storyboard */,
+				8E2850021EEA0974006D089D /* Info.plist */,
+			);
+			path = GoogLeNet;
+			sourceTree = "<group>";
+		};
+		8E28500A1EEA0975006D089D /* GoogLeNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E28500B1EEA0975006D089D /* GoogLeNetTests.swift */,
+				8E28500D1EEA0975006D089D /* Info.plist */,
+			);
+			path = GoogLeNetTests;
+			sourceTree = "<group>";
+		};
+		8E2850151EEA0975006D089D /* GoogLeNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */,
+				8E2850181EEA0975006D089D /* Info.plist */,
+			);
+			path = GoogLeNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E284FF21EEA0974006D089D /* GoogLeNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E28501B1EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNet" */;
+			buildPhases = (
+				8E284FEF1EEA0974006D089D /* Sources */,
+				8E284FF01EEA0974006D089D /* Frameworks */,
+				8E284FF11EEA0974006D089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogLeNet;
+			productName = GoogLeNet;
+			productReference = 8E284FF31EEA0974006D089D /* GoogLeNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E2850061EEA0974006D089D /* GoogLeNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E28501E1EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetTests" */;
+			buildPhases = (
+				8E2850031EEA0974006D089D /* Sources */,
+				8E2850041EEA0974006D089D /* Frameworks */,
+				8E2850051EEA0974006D089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2850091EEA0974006D089D /* PBXTargetDependency */,
+			);
+			name = GoogLeNetTests;
+			productName = GoogLeNetTests;
+			productReference = 8E2850071EEA0974006D089D /* GoogLeNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E2850111EEA0975006D089D /* GoogLeNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2850211EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetUITests" */;
+			buildPhases = (
+				8E28500E1EEA0975006D089D /* Sources */,
+				8E28500F1EEA0975006D089D /* Frameworks */,
+				8E2850101EEA0975006D089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E2850141EEA0975006D089D /* PBXTargetDependency */,
+			);
+			name = GoogLeNetUITests;
+			productName = GoogLeNetUITests;
+			productReference = 8E2850121EEA0975006D089D /* GoogLeNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E284FEB1EEA0974006D089D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Arthur Garza";
+				TargetAttributes = {
+					8E284FF21EEA0974006D089D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					8E2850061EEA0974006D089D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8E284FF21EEA0974006D089D;
+					};
+					8E2850111EEA0975006D089D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8E284FF21EEA0974006D089D;
+					};
+				};
+			};
+			buildConfigurationList = 8E284FEE1EEA0974006D089D /* Build configuration list for PBXProject "GoogLeNet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E284FEA1EEA0974006D089D;
+			productRefGroup = 8E284FF41EEA0974006D089D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E284FF21EEA0974006D089D /* GoogLeNet */,
+				8E2850061EEA0974006D089D /* GoogLeNetTests */,
+				8E2850111EEA0975006D089D /* GoogLeNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E284FF11EEA0974006D089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2850011EEA0974006D089D /* LaunchScreen.storyboard in Resources */,
+				8E284FFE1EEA0974006D089D /* Assets.xcassets in Resources */,
+				8E284FFC1EEA0974006D089D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2850051EEA0974006D089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2850101EEA0975006D089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E284FEF1EEA0974006D089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E284FF91EEA0974006D089D /* ViewController.swift in Sources */,
+				8E284FF71EEA0974006D089D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2850031EEA0974006D089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E28500C1EEA0975006D089D /* GoogLeNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E28500E1EEA0975006D089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2850171EEA0975006D089D /* GoogLeNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E2850091EEA0974006D089D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E284FF21EEA0974006D089D /* GoogLeNet */;
+			targetProxy = 8E2850081EEA0974006D089D /* PBXContainerItemProxy */;
+		};
+		8E2850141EEA0975006D089D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E284FF21EEA0974006D089D /* GoogLeNet */;
+			targetProxy = 8E2850131EEA0975006D089D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E284FFA1EEA0974006D089D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E284FFB1EEA0974006D089D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E284FFF1EEA0974006D089D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E2850001EEA0974006D089D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E2850191EEA0975006D089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E28501A1EEA0975006D089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E28501C1EEA0975006D089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogLeNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E28501D1EEA0975006D089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogLeNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E28501F1EEA0975006D089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogLeNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogLeNet.app/GoogLeNet";
+			};
+			name = Debug;
+		};
+		8E2850201EEA0975006D089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogLeNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogLeNet.app/GoogLeNet";
+			};
+			name = Release;
+		};
+		8E2850221EEA0975006D089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoogLeNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogLeNet;
+			};
+			name = Debug;
+		};
+		8E2850231EEA0975006D089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoogLeNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogLeNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E284FEE1EEA0974006D089D /* Build configuration list for PBXProject "GoogLeNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2850191EEA0975006D089D /* Debug */,
+				8E28501A1EEA0975006D089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E28501B1EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E28501C1EEA0975006D089D /* Debug */,
+				8E28501D1EEA0975006D089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E28501E1EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E28501F1EEA0975006D089D /* Debug */,
+				8E2850201EEA0975006D089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E2850211EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2850221EEA0975006D089D /* Debug */,
+				8E2850231EEA0975006D089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E284FEB1EEA0974006D089D /* Project object */;
+}
