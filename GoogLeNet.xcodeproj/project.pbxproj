@@ -14,6 +14,7 @@
 		8E2850011EEA0974006D089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E284FFF1EEA0974006D089D /* LaunchScreen.storyboard */; };
 		8E28500C1EEA0975006D089D /* GoogLeNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E28500B1EEA0975006D089D /* GoogLeNetTests.swift */; };
 		8E2850171EEA0975006D089D /* GoogLeNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */; };
+		8E2850251EEA09BB006D089D /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8E2850121EEA0975006D089D /* GoogLeNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogLeNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetUITests.swift; sourceTree = "<group>"; };
 		8E2850181EEA0975006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8E284FF51EEA0974006D089D /* GoogLeNet */ = {
 			isa = PBXGroup;
 			children = (
+				8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */,
 				8E284FF61EEA0974006D089D /* AppDelegate.swift */,
 				8E284FF81EEA0974006D089D /* ViewController.swift */,
 				8E284FFA1EEA0974006D089D /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				8E284FF91EEA0974006D089D /* ViewController.swift in Sources */,
 				8E284FF71EEA0974006D089D /* AppDelegate.swift in Sources */,
+				8E2850251EEA09BB006D089D /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = GoogLeNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNet;
@@ -432,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = GoogLeNet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.GoogLeNet;
