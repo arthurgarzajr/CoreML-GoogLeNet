@@ -14,7 +14,7 @@
 		8E2850011EEA0974006D089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E284FFF1EEA0974006D089D /* LaunchScreen.storyboard */; };
 		8E28500C1EEA0975006D089D /* GoogLeNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E28500B1EEA0975006D089D /* GoogLeNetTests.swift */; };
 		8E2850171EEA0975006D089D /* GoogLeNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */; };
-		8E2850251EEA09BB006D089D /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */; };
+		8EABD8F71EF0E05800C97C59 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EABD8F61EF0E05400C97C59 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		8E2850121EEA0975006D089D /* GoogLeNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogLeNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2850161EEA0975006D089D /* GoogLeNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetUITests.swift; sourceTree = "<group>"; };
 		8E2850181EEA0975006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		8EABD8F61EF0E05400C97C59 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		8E284FF51EEA0974006D089D /* GoogLeNet */ = {
 			isa = PBXGroup;
 			children = (
-				8E2850241EEA09BA006D089D /* GoogLeNetPlaces.mlmodel */,
+				8EABD8F61EF0E05400C97C59 /* GoogLeNetPlaces.mlmodel */,
 				8E284FF61EEA0974006D089D /* AppDelegate.swift */,
 				8E284FF81EEA0974006D089D /* ViewController.swift */,
 				8E284FFA1EEA0974006D089D /* Main.storyboard */,
@@ -261,7 +261,7 @@
 			files = (
 				8E284FF91EEA0974006D089D /* ViewController.swift in Sources */,
 				8E284FF71EEA0974006D089D /* AppDelegate.swift in Sources */,
-				8E2850251EEA09BB006D089D /* GoogLeNetPlaces.mlmodel in Sources */,
+				8EABD8F71EF0E05800C97C59 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,7 @@
 				8E28501D1EEA0975006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E28501E1EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +533,7 @@
 				8E2850201EEA0975006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E2850211EEA0975006D089D /* Build configuration list for PBXNativeTarget "GoogLeNetUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +542,7 @@
 				8E2850231EEA0975006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
